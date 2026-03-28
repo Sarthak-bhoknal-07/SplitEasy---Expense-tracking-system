@@ -1,0 +1,134 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #1c1e21;
+}
+
+.navbar {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  background-color: #ffffff !important;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #1877f2 !important;
+}
+
+.card {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding: 16px 20px;
+  font-weight: 700;
+  color: #4b4f56;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #1877f2;
+}
+
+.btn-primary:hover {
+  background-color: #166fe5;
+  transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+  color: #1877f2;
+  border-color: #1877f2;
+}
+
+.btn-outline-primary:hover {
+  background-color: #f0f7ff;
+  color: #1877f2;
+  border-color: #1877f2;
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #f0f2f5;
+  padding: 16px 20px;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.balance-card {
+  transition: all 0.3s ease;
+}
+
+.balance-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.summary-card {
+  border-left: 4px solid #1877f2;
+}
+
+.summary-card.positive {
+  border-left-color: #42b72a;
+}
+
+.summary-card.negative {
+  border-left-color: #fa3e3e;
+}
+
+.expense-item {
+  border-left: 3px solid transparent;
+}
+
+.expense-item:hover {
+  background-color: #f8f9fa;
+  border-left-color: #1877f2;
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+  border: 1px solid #dddfe2;
+  padding: 10px 14px;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+}
+
+.dashboard-card {
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
