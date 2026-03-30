@@ -58,7 +58,9 @@ ExpenseTrackerSystem/
 ```
 
 ###2️⃣ Backend Setup (Spring Boot)
+
 *Open project in IDE (IntelliJ / Eclipse)
+
 *Configure application.properties:
 ```bash
 spring.datasource.url=jdbc:mysql://expense_db
@@ -66,14 +68,21 @@ spring.datasource.username=root
 spring.datasource.password=yourpassword
 ```
 ###3️⃣ Frontend Setup
+
 *Open index.html in your browser
+
 *OR
+
 *Use Live Server (VS Code extension)
 ```
 ###4️⃣ Database Setup
+
 *Create database:
+
 ```bash:
+
 CREATE DATABASE expense_db;
+
 ```
 ## 🧠 Future Enhancements
 
