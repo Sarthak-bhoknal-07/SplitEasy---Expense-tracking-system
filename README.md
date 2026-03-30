@@ -68,10 +68,6 @@ CREATE DATABASE expense_db;
 Import schema from:
 /database/schema.sql
 
-📸 Screenshots (Optional)
-
-Add screenshots of your UI here for better presentation
-
 📊 Future Enhancements
 📱 Mobile App Version
 📊 Advanced Analytics & Graphs
